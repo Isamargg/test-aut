@@ -16,7 +16,6 @@ describe('Test de Login Inválido - Contraseña Incorrecta - Portal Alumno Tecla
     const username = '95755968'  // Usuario válido
     const passwordIncorrecta = 'ContraseñaIncorrecta123'  // Contraseña incorrecta
 
-    // Visitar la página de login
     cy.visit('/login')
     
     // Esperar a que la página cargue completamente
